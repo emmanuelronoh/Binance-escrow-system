@@ -10,11 +10,20 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.8",
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
-    "hardhat": "^2.22.19"
+    "chai": "^4.5.0",
+    "dotenv": "^16.5.0",
+    "ethers": "^6.13.5",
+    "hardhat": "^2.23.0",
+    "hardhat-contract-sizer": "^2.10.0",
+    "hardhat-gas-reporter": "^1.0.10",
+    "sinon": "^20.0.0",
+    "solidity-coverage": "^0.8.15"
   },
   "dependencies": {
-    "dotenv": "^16.5.0",
-    "fp-ts": "^2.16.9"
+    "@openzeppelin/contracts": "^5.3.0",
+    "fp-ts": "^2.16.9",
+    "fs-extra": "^11.3.0"
   }
 }
